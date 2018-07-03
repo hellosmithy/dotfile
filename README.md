@@ -13,17 +13,17 @@ cd dotfiles
 
 ```
 rbenv init
-rbenv install 2.4.1 --verbose
+rbenv install 2.5.1 --verbose
 ```
 
 ## Python bindings
 
 ```
-pyenv install 2.7.11
-pyenv install 3.5.2
+pyenv install 2.7.14
+pyenv install 3.7.0
 
-pyenv virtualenv 2.7.11 neovim2
-pyenv virtualenv 3.5.2 neovim3
+pyenv virtualenv 2.7.14 neovim2
+pyenv virtualenv 3.7.0 neovim3
 
 pyenv activate neovim2
 pip install neovim
