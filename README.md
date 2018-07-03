@@ -19,10 +19,10 @@ rbenv install 2.5.1 --verbose
 ## Python bindings
 
 ```
-pyenv install 2.7.14
+pyenv install 2.7.15
 pyenv install 3.7.0
 
-pyenv virtualenv 2.7.14 neovim2
+pyenv virtualenv 2.7.15 neovim2
 pyenv virtualenv 3.7.0 neovim3
 
 pyenv activate neovim2
